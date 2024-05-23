@@ -41,19 +41,19 @@ user_semaphores = {}
 user_tasks = {}
 
 HELP_MESSAGE = """Commands:
-⚪ /retry – Regenerate last bot answer
-⚪ /new – Start new dialog
-⚪ /mode – Select chat mode
-⚪ /settings – Show settings
-⚪ /balance – Show balance
-⚪ /help – Show help
+⚪ /retry – Восстановить последний ответ бота
+⚪ /new – Начать новый диалог
+⚪ /mode – Выберите режим чата
+⚪ /settings – Показать настройки
+⚪ /balance – Показать баланс
+⚪ /help – Показать справку
 
-🎨 Generate images from text prompts in <b>👩‍🎨 Artist</b> /mode
-👥 Add bot to <b>group chat</b>: /help_group_chat
-🎤 You can send <b>Voice Messages</b> instead of text
+🎨 Создавайте изображения из текстовых подсказок в режиме <b>👩‍🎨 Artist</b> /mode
+👥 Добавьте бота в <b>group chat</b>: /help_group_chat
+🎤 Ты можешь отправить <b>Voice Messages</b> instead of text
 """
 
-HELP_GROUP_CHAT_MESSAGE = """You can add bot to any <b>group chat</b> to help and entertain its participants!
+HELP_GROUP_CHAT_MESSAGE = """Вы можете добавить бота в любой <b>group chat</b> помогать и развлекать его участников!
 
 Instructions (see <b>video</b> below):
 1. Add the bot to the group chat
